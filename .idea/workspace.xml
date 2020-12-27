@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0da658e-b813-4990-a790-7a89b0a2e571" name="Default Changelist" comment="WDUHome.java file created.">
+    <list default="true" id="e0da658e-b813-4990-a790-7a89b0a2e571" name="Default Changelist" comment="WDUHomeTest.java file created.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WDUHomeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WDUHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WDUHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WDUHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cb/ta/WebDU/WDUHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/cb-ta-WebDU/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/cb/ta/WebDU/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WDUHomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cb/ta/WebDU/WDUHomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/cb-ta-WebDU/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cb/ta/WebDU/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +36,57 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.cb.ta.WebDU" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Test">
+    <configuration name="Basic" type="TestNG">
+      <module name="cb-ta-WebDU" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="TestNG">
+      <module name="cb-ta-WebDU" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.Basic" />
+      <item itemvalue="TestNG.Test" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -79,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609099114247</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="WDUHomeTest.java file created.">
+      <created>1609101276153</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609101276153</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,12 +152,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Maven project created." />
     <MESSAGE value=".gitignore file created." />
     <MESSAGE value="testNG, cucumber and selenium dependencies added to pom.xml file." />
     <MESSAGE value="WDUHome.java file created." />
-    <option name="LAST_COMMIT_MESSAGE" value="WDUHome.java file created." />
+    <MESSAGE value="WDUHomeTest.java file created." />
+    <option name="LAST_COMMIT_MESSAGE" value="WDUHomeTest.java file created." />
   </component>
 </project>

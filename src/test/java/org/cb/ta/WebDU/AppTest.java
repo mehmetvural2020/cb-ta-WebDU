@@ -1,4 +1,4 @@
-package org.cb-ta-WebDU;
+package org.cb.ta.WebDU;
 
 import static org.junit.Assert.assertTrue;
 
