@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0da658e-b813-4990-a790-7a89b0a2e571" name="Default Changelist" comment="testNG, cucumber and selenium dependencies added to pom.xml file.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WDUHome.java" afterDir="false" />
+    <list default="true" id="e0da658e-b813-4990-a790-7a89b0a2e571" name="Default Changelist" comment="WDUHome.java file created.">
+      <change afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WDUHomeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WDUHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WDUHome.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609098478375</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="WDUHome.java file created.">
+      <created>1609099114247</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609099114247</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +97,7 @@
     <MESSAGE value="New Maven project created." />
     <MESSAGE value=".gitignore file created." />
     <MESSAGE value="testNG, cucumber and selenium dependencies added to pom.xml file." />
-    <option name="LAST_COMMIT_MESSAGE" value="testNG, cucumber and selenium dependencies added to pom.xml file." />
+    <MESSAGE value="WDUHome.java file created." />
+    <option name="LAST_COMMIT_MESSAGE" value="WDUHome.java file created." />
   </component>
 </project>
