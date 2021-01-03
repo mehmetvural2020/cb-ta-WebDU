@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0da658e-b813-4990-a790-7a89b0a2e571" name="Default Changelist" comment="WDUDataTablesButtonStatesPage.java file updated.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e0da658e-b813-4990-a790-7a89b0a2e571" name="Default Changelist" comment="BaseTest.java file created." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609703322979</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="BaseTest.java file created.">
+      <created>1609705273491</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609705273491</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +207,7 @@
     <MESSAGE value="DropDownCheckBoxRadioBtnsPage.java file created." />
     <MESSAGE value="WriteDataToExcel.java.java file created." />
     <MESSAGE value="WDUDataTablesButtonStatesPage.java file updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="WDUDataTablesButtonStatesPage.java file updated." />
+    <MESSAGE value="BaseTest.java file created." />
+    <option name="LAST_COMMIT_MESSAGE" value="BaseTest.java file created." />
   </component>
 </project>
