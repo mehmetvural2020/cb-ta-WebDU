@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0da658e-b813-4990-a790-7a89b0a2e571" name="Default Changelist" comment="Driver.java file created.">
+    <list default="true" id="e0da658e-b813-4990-a790-7a89b0a2e571" name="Default Changelist" comment="Driver.java file code commented.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/cb/ta/WebDU/WDUDataTablesButtonStatesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/cb/ta/WebDU/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/cb/ta/WebDU/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609105931749</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Driver.java file code commented.">
+      <created>1609106435859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609106435859</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +179,7 @@
     <MESSAGE value="WDUHomeTest.java file created." />
     <MESSAGE value="TestNG.xml file created. &#10;And first test run successfully." />
     <MESSAGE value="Driver.java file created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Driver.java file created." />
+    <MESSAGE value="Driver.java file code commented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Driver.java file code commented." />
   </component>
 </project>
