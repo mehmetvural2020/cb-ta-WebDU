@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0da658e-b813-4990-a790-7a89b0a2e571" name="Default Changelist" comment="Driver.java file updated." />
+    <list default="true" id="e0da658e-b813-4990-a790-7a89b0a2e571" name="Default Changelist" comment="WDUHomeTest.java file updated.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/cb/ta/WebDU/DropDownCheckBoxRadioBtnsPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/cb/ta/WebDU/WDUDataTablesButtonStatesPageTes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609705595844</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="WDUHomeTest.java file updated.">
+      <created>1609705711122</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609705711122</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +227,7 @@
     <MESSAGE value="WDUDataTablesButtonStatesPage.java file updated." />
     <MESSAGE value="BaseTest.java file created." />
     <MESSAGE value="Driver.java file updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="Driver.java file updated." />
+    <MESSAGE value="WDUHomeTest.java file updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="WDUHomeTest.java file updated." />
   </component>
 </project>
