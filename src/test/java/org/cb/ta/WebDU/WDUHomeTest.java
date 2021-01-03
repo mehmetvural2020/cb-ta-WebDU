@@ -1,35 +1,37 @@
 package org.cb.ta.WebDU;
 
-import org.cb.ta.WebDU.WDUHome;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 
-import static org.testng.AssertJUnit.assertNotNull;
+import static org.testng.Assert.assertNotNull;
+import static org.testng.Assert.assertTrue;
 
-public class WDUHomeTest {
-    private WebDriver driver;
-    private WDUHome wduHome;
+public class WDUHomeTest extends BaseTest {
+
+    private final WebElement dataTablesButtonStatesLinkElement;
+    private final WDUHome wduHome;
 
     public WDUHomeTest() {
-        System.setProperty("webdriver.chrome.driver", "../webdriver/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        super();
         wduHome = new WDUHome(driver);
+        dataTablesButtonStatesLinkElement = wduHome.getDataTablesButtonStatesLink();
     }
 
     @Test
-    public void checkIfDataTablesButtonStatesLinkExist() {
-        WebElement dataTablesButtonStatesLinkElement = wduHome.getDataTablesButtonStatesLink();
+    public void checkIfDataTablesButtonStatesLinkExists() {
         assertNotNull(dataTablesButtonStatesLinkElement);
     }
 
-    @AfterClass
-    public void teardown() throws InterruptedException {
-        Thread.sleep(3000);
-        driver.quit();
-        //        driver.close();
+    @Test
+    public void checkIfDataTablesButtonStatesLinkIsEnabled() {
+        assertTrue(dataTablesButtonStatesLinkElement.isEnabled());
     }
+
+    @Test
+    public void clickDataTablesButtonStatesLink() {
+        dataTablesButtonStatesLinkElement.click();
+    }
+
+
+
 }
