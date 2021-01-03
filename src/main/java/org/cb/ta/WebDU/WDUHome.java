@@ -14,6 +14,7 @@ public class WDUHome {
         this.driver.get("http://www.webdriveruniversity.com/");
     }
 
+
     public WebElement getDataTablesButtonStatesLink() {
         return driver.findElement(dataTablesButtonStatesLink);
     }
